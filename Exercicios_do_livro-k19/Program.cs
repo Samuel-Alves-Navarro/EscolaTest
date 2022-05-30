@@ -1,4 +1,5 @@
 ﻿using System;
+using System;
 using Exibicao.src.Classes;
 
 /*
@@ -85,7 +86,7 @@ namespace Exibicao
             */
 
             //exercicio 6
-            
+            /*
             TestaTurma pessoa = new TestaTurma();
 
                 Console.WriteLine("Digite sua sigla: ");
@@ -94,6 +95,18 @@ namespace Exibicao
                 pessoa.TipoEnsinoTest = Console.ReadLine();
                 Console.WriteLine("A turma está associada a sigla: " + pessoa.SiglaTest);
                 Console.WriteLine("O tipo de ensino da turma é: " + pessoa.TipoEnsinoTest);
+            */
+            // exercício 7 e 8
+
+            Aluno turma = new Aluno();
+            Turma alunos = new Turma();
+
+            Console.WriteLine("Digite o nome da turma: ");
+            alunos.NomedaTurma = Console.ReadLine();
+
+        turma.NomeTurma = alunos;
+
+            Console.WriteLine("Sua turma é: " + turma.NomeTurma.NomedaTurma);
         }
     }
 }
