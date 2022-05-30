@@ -5,6 +5,7 @@ namespace Exibicao.src.Classes
         public string Nome;
         public string RG;
         public string Data;
+        public Turma NomeTurma;
 
     }
     public class TestaAluno{
@@ -19,11 +20,13 @@ namespace Exibicao.src.Classes
         public string CPF;
     }
     public class Turma{
-
+/*
         public int Periodo;
         public string Serie;
         public string Sigla;
         public string TipoEnsino;
+        */
+        public string NomedaTurma;     
     }
     public class TestaTurma{
 
